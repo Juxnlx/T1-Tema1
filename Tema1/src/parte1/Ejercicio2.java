@@ -3,7 +3,7 @@ package parte1;
 import java.util.Scanner;
 
 /**
- * Esta clase nos pidira nuestra edad y nos mostrara la edad que tendriamos
+ * Esta clase nos pedira nuestra edad y nos mostrara la edad que tendriamos
  * dentro de un año.
  */
 public class Ejercicio2 {
