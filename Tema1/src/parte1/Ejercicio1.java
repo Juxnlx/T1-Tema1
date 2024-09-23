@@ -3,7 +3,7 @@ package parte1;
 import java.util.Scanner;
 
 /**
- * Nos pide que introduzcamos un número y lo mostremos por consola.
+ * Introducir un número y mostrarlo por consola.
  */
 public class Ejercicio1 {
 

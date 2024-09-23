@@ -19,7 +19,7 @@ public class Ejercicio3 {
 		// usuario.
 		int yearNacimiento;
 
-		// Le pedimos al usuario en el año en el que nos escontramos.
+		// Le pedimos al usuario en el año en el que nos encontramos.
 		System.out.print("Introduce en que año estamos --> ");
 		// Leemos la fecha introducida
 		yearActual = sc.nextInt();
