@@ -23,7 +23,7 @@ public class Ejercicio2 {
 
 		// Mostramos la edad del usuario un año mas tarde.
 		System.out.println("La edad del usuario actualmente es: " + edad + " años, el año que viene tendra "
-				+ (edad + 1) + " años.");
+				+ ++edad + " años.");
 
 		// Cierre de Scanner
 		sc.close();
