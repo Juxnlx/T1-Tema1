@@ -43,6 +43,9 @@ public class Ejercicio13 {
 		total = library ? true : (rain ? false : (homework ? true : false));
 		
 		System.out.println("¿Pordras salir a la calle? --> " + total);
+		
+		//Cierre Scanner
+		sc.close();
 	}
 
 }
