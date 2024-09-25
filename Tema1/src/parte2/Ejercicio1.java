@@ -33,7 +33,8 @@ public class Ejercicio1 {
 		System.out.println();
 		System.out.println("El número redondeado al entero más próximo es --> " + result);
 		
-		
+		//Cierre de Scanner 
+		sc.close();
 
 	}
 
