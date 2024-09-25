@@ -32,6 +32,9 @@ public class Ejercicio15 {
 		// Imprimimos el resultado total
 		System.out.println();
 		System.out.println("Precio total con IVA incluido --> " + price);
+		
+		//Cierre de Scanner
+		sc.close();
 	}
 
 }
