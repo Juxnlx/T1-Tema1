@@ -39,6 +39,20 @@ public class Ejercicio6 {
 		// leemos.
 		System.out.print("Introduce la tercera longitud en metros -->");
 		metros = sc.nextDouble();
+
+		// Pasamos los milimetros a centímetros dividiendo entre 10.
+		milimetros /= 10;
+
+		// Pasamos los metros a centímetros multiplicando por 100.
+		metros *= 100;
+
+		// Imprimimos la suma de todas las cantidades ya pasadas todas a centimetros.
+		System.out.println();
+		System.out.println("La suma de todas las cantidades en centímetros son --> "
+				+ (metros + milimetros + centrimetros) + " cm");
+
+		// Cierre de Scanner
+		sc.close();
 	}
 
 }

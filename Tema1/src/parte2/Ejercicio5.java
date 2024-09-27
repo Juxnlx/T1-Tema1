@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 /**
  * Debemos de introducir una cantidad de segundos y nos debe mostrar cuantas
- * horas, minutos y segundos, resulta ser todos esos minutos introducidos por el
+ * horas, minutos y segundos resulta ser todos esos minutos introducidos por el
  * usuario.
  */
 public class Ejercicio5 {
@@ -14,7 +14,7 @@ public class Ejercicio5 {
 		// Creamos el Scanner para pedirle al usuario los segundos.
 		Scanner sc = new Scanner(System.in);
 
-		// Creamos la variable cantMinutos para almacenar los segundos introducidos por
+		// Creamos la variable cantSegundos para almacenar los segundos introducidos por
 		// el usuario.
 		int cantSegundos;
 

@@ -20,7 +20,7 @@ public class Ejercicio1 {
 		// Creamos la variable result como int para almacenar el resultado redondeado.
 		int result;
 
-		// Le pedimos al usuario que introduzca un número con decimales y lo leemos
+		// Le pedimos al usuario que introduzca un número con decimales y lo leemos.
 		System.out.println();
 		numDec = sc.nextDouble();
 
@@ -29,11 +29,11 @@ public class Ejercicio1 {
 		// parte decimal del número.
 		result = (int) (numDec >= (int) numDec + 0.5 ? ++numDec : numDec);
 
-		//Imprimimos el resultado
+		// Imprimimos el resultado
 		System.out.println();
 		System.out.println("El número redondeado al entero más próximo es --> " + result);
-		
-		//Cierre de Scanner 
+
+		// Cierre de Scanner
 		sc.close();
 
 	}

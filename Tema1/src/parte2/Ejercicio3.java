@@ -3,24 +3,22 @@ package parte2;
 import java.util.Scanner;
 
 /**
- * Este programa le pide al usuario dos número 2 números y nos devulve la
- * cantidad que hay que sumarle a primer número para que sea multiplo del
- * segundo.
+ * Este programa le pide al usuario 2 números y nos devuelve la cantidad que hay
+ * que sumarle al primer número para que sea multiplo del segundo.
  */
 public class Ejercicio3 {
 
 	public static void main(String[] args) {
 
-		// Creamos el Scanner para pedirle números entero al usuario.
+		// Creamos el Scanner para pedirle números enteros al usuario.
 		Scanner sc = new Scanner(System.in);
 
-		// Creamos la variable num1 como entero ya que el usuario debe de introducir un
+		// Creamos la variable num1 como int ya que el usuario debe de introducir un
 		// número entero.
 		int num1;
 
-		// Creamos la variable num2 como entero ya que el usuario debe de introducir
-		// otro
-		// número entero.
+		// Creamos la variable num2 como int ya que el usuario debe de introducir
+		// otro número entero.
 		int num2;
 
 		// Creamos la variable cantidadSumar como entero para mostrar la cantidad que se

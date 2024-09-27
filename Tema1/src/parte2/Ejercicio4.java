@@ -43,12 +43,12 @@ public class Ejercicio4 {
 		c = sc.nextInt();
 
 		// Resolvemos la primera solución de la ecuación de segundo grado con la
-		// ecuación: menos b mas la raiz cuadrada de b al cuadrado - 4 por a por c y
+		// ecuación, menos b mas la raiz cuadrada de b al cuadrado - 4 por a por c y
 		// todo eso entre 2 por a.
 		x1 = ((-1 * b) + (Math.sqrt(Math.pow(b, 2) - 4 * a * c))) / (2 * a);
 
 		// Resolvemos la segunda solución de la ecuación de segundo grado con la
-		// ecuación: menos b menos la raiz cuadrada de b al cuadrado - 4 por a por c y
+		// ecuación, menos b menos la raiz cuadrada de b al cuadrado - 4 por a por c y
 		// todo eso entre 2 por a.
 		x2 = ((-1 * b) - (Math.sqrt(Math.pow(b, 2) - 4 * a * c))) / (2 * a);
 
