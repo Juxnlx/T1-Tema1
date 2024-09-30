@@ -37,7 +37,7 @@ public class Ejercicio3 {
 		// Comprobamos si el resto es igual a 0, porque si es así, la cantidad a sumar
 		// es 0 porque ya es multiplo de num2. En caso de que el resto no fuera 0
 		// entonces a num2 le restamos el resto de la división entre num1 y num2.
-		cantidadSumar = (num1 % num2) == 0 ? cantidadSumar = 0 : num2 - (num1 % num2);
+		cantidadSumar = (num1 % num2) == 0 ? 0 : num2 - (num1 % num2);
 
 		// Imprimimos el resultado
 		System.out.println();

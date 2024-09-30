@@ -28,7 +28,8 @@ public class Ejercicio2 {
 
 		// Esta es la ecuación para resolver la cantidad a sumar. Seria el divisor menos
 		// el resto de la división.
-		cantidadSumar = 7 - (num % 7);
+		cantidadSumar = (num % 7) == 0 ? 0 : 7 - (num % 7);
+
 
 		// Imprimimos el resultado
 		System.out.println();
