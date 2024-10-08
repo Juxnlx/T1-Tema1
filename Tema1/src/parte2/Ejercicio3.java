@@ -41,7 +41,7 @@ public class Ejercicio3 {
 
 		// Imprimimos el resultado
 		System.out.println();
-		System.out.println("Cantidad a sumar para ser múltiplo de 7 --> " + cantidadSumar);
+		System.out.println("Cantidad a sumar para ser múltiplo de " + num2 + " --> "+ cantidadSumar);
 
 		// Cierre de Scanner
 		sc.close();

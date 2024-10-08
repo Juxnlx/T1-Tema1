@@ -34,7 +34,7 @@ public class Ejercicio4 {
 
 		// A la variable nota media le asignamos la ecuación para calcular la nota media
 		// entre estas dos notas.
-		notaMedia = (double) (nota1 + nota2) / 2;
+		notaMedia = (nota1 + nota2) / 2;
 
 		// Mostramos la nota media
 		System.out.println("La nota media de estas dos notas es: " + notaMedia);
